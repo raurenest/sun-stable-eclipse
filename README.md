@@ -31,12 +31,6 @@ python centrar_sol.py input.mp4 output.mp4
 
 The output video has the same resolution and framerate as the input.
 
-To generate a 2x speed version with FFmpeg:
-
-```bash
-ffmpeg -i output.mp4 -vf "setpts=PTS/2" -an -r 30 output_x2.mp4
-```
-
 ## Adjustable parameters
 
 The following constants at the top of the script can be modified:
